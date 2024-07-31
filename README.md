@@ -20,7 +20,7 @@ This program demonstrates multithreaded logging in C# by creating multiple tasks
 1. Clone the repository or download the source code.
 1. Open the project in your preferred IDE.
 1. Ensure the directory structure is correct. The log file will be saved at `/log/out.txt`.
-  - If the /log directory does not exist, the program will create the it
+    - If the `/log` directory does not exist, the program will create the it
 1. Build and run the project.
 
 ## How It Works
@@ -50,15 +50,14 @@ Exceptions are caught and logged by the `ErrorLogger.LogException` method. The E
 2, 7, 18:06:48.455
 3, 8, 18:06:48.455
 4, 6, 18:06:48.455
-...
 ```
 
 ## Notes
 - The program uses `StreamWriter` with `lock` for thread-safe file access.
 - `Task.Yield` is used to allow other tasks to run and simulate a more realistic multithreading environment.
-  - Initially I looked into Threading/ThreadPools, however they were not able to simulate asynchronous multithreading.
+  - Initially I looked into Threading/ThreadPools, however the output was not able to simulate asynchronous multithreading.
 
 
 ## Contact
 
-For questions or feedback, please contact the author at [jcarrabino13@gmail.com].
+For questions or feedback, please contact the author at jcarrabino13@gmail.com.
