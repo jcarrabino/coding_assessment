@@ -1,4 +1,3 @@
-# Quiz
 # Multithreaded Logging Program
 
 This program demonstrates multithreaded logging in C# by creating multiple tasks that write to a log file concurrently. The log file will contain lines with the format: `line number, thread ID, timestamp`.
