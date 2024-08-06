@@ -19,7 +19,7 @@ This program demonstrates multithreaded logging in C# by creating multiple tasks
 1. Clone the repository or download the source code.
 1. Open the project in your preferred IDE.
 1. Ensure the directory structure is correct. The log file will be saved at `/log/out.txt`.
-    - If the `/log` directory does not exist, the program will create the it
+    - If the `/log` directory does not exist, the program will create it
 1. Build and run the project.
 
 ## How It Works
